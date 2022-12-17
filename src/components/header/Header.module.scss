@@ -33,25 +33,25 @@
       display: none;
     }
   }
+}
 
-  a{
-    color: $yellow;
-    font-size: 2.6rem;
-    font-weight: 700;
-    line-height: 120%;
-    transition: color .4s ease;
+.tel{
+  color: $yellow;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 120%;
+  transition: color .4s ease;
 
-    &:hover{
-      color:$dark-grey;
-    }
+  &:hover{
+    color:$dark-grey;
+  }
 
-    @media screen and (max-width: 1549.98px) {
-      margin-right: 22px;
-    }
+  @media screen and (max-width: 1549.98px) {
+    margin-right: 22px;
+  }
 
-    @media screen and (max-width: 767.98px) {
-      display: none;
-    }
+  @media screen and (max-width: 767.98px) {
+    display: none;
   }
 }
 
