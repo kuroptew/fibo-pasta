@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/fibo/static/css/main.29d638d0.css",
-    "main.js": "/fibo/static/js/main.d747eb57.js",
-    "index.html": "/fibo/index.html",
-    "main.29d638d0.css.map": "/fibo/static/css/main.29d638d0.css.map",
-    "main.d747eb57.js.map": "/fibo/static/js/main.d747eb57.js.map"
+    "main.css": "/fibo-pasta/static/css/main.29d638d0.css",
+    "main.js": "/fibo-pasta/static/js/main.d747eb57.js",
+    "index.html": "/fibo-pasta/index.html",
+    "main.29d638d0.css.map": "/fibo-pasta/static/css/main.29d638d0.css.map",
+    "main.d747eb57.js.map": "/fibo-pasta/static/js/main.d747eb57.js.map"
   },
   "entrypoints": [
     "static/css/main.29d638d0.css",
