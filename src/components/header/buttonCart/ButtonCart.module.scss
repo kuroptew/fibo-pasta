@@ -1,0 +1,46 @@
+@import '../../../style/variables';
+
+.button {
+  padding: 7px 25px;
+  background-color: $yellow;
+  border-radius: 8px;
+  color: #231F20;
+  transition: all .4s ease;
+
+  span {
+    position: relative;
+    margin-right: 30px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.75;
+  }
+  span:last-of-type{
+    margin-right: 0;
+  }
+
+  span:first-of-type::after{
+    content: '';
+    position: absolute;
+    height: 23px;
+    width: 2px;
+    top: -2px;
+    right: -14px;
+    background-color: #231F20;
+    transition: background-color .4s ease;
+  }
+
+  &:hover{
+    background-color: $grey;
+    color: $dark-grey;
+
+    span:first-of-type::after{
+      background-color: $dark-grey;
+    }
+  }
+
+
+  @media screen and (max-width: 1549.98px) {
+    margin-right: 21px;
+  }
+
+}

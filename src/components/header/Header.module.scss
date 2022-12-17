@@ -1,5 +1,159 @@
 @import '../../style/variables';
 
-.header{
+.header {
+  padding: 13px 220px;
 
+  @media screen and (max-width: 1549.98px) {
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    padding: 10px;
+  }
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:14px;
+
+  button:not(:first-of-type){
+    display: none;
+  }
+
+  @media screen and (max-width: 1549.98px) {
+    button:not(:first-of-type){
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    button:not(:last-child){
+      display: none;
+    }
+  }
+
+  a{
+    color: $yellow;
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 120%;
+    transition: color .4s ease;
+
+    &:hover{
+      color:$dark-grey;
+    }
+
+    @media screen and (max-width: 1549.98px) {
+      margin-right: 22px;
+    }
+
+    @media screen and (max-width: 767.98px) {
+      display: none;
+    }
+  }
+}
+
+.btn__call {
+  margin-right: 28px;
+  padding: 7px 28px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 200%;
+  border-radius: 28px;
+  background-color: $grey;
+  color: $dark-grey;
+  transition: all .4s ease;
+
+  &:hover{
+    background-color: $yellow;
+    color:#231F20;
+  }
+
+  @media screen and (max-width: 1549.98px) {
+    display: none;
+  }
+}
+
+.wrapper__delivery {
+  display: flex;
+  flex-direction: column;
+  margin-right: 170px;
+
+  @media screen and (max-width: 1549.98px) {
+    display: none;
+  }
+}
+
+.delivery__info_top {
+  margin-bottom: 9px;
+  & > span {
+    color: #231F20;
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 120%;
+    margin-right: 6px;
+    background-color: inherit;
+  }
+
+  span+span{
+    margin-right: 0;
+    color:$yellow;
+  }
+}
+
+.delivery__info_bot {
+  display: flex;
+
+  .delivery__company,
+  .delivery__time{
+    span {
+      position: relative;
+      font-size: 1.3rem;
+      font-weight: 700;
+      line-height: 125%;
+      margin-right: 18px;
+    }
+    span:last-of-type{
+      margin-right: 0;
+    }
+
+    span:first-of-type::after{
+      content:'';
+      background-color: red;
+      position: absolute;
+      height: 4px;
+      width: 4px;
+      top: 7px;
+      border-radius: 50%;
+      right: -11px;
+    }
+  }
+
+  .delivery__company{
+    margin-right: 20px;
+    & img{
+      margin-right: 7px;
+    }
+
+    span:last-of-type{
+      margin-right: 4px;
+    }
+
+    svg{
+      transform: translateY(1px);
+    }
+  }
+
+}
+
+.header__bot{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1549.98px) {
+    display: none;
+  }
 }

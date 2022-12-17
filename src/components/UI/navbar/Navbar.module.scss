@@ -1,0 +1,31 @@
+@import '../../../style/variables';
+
+.navbar{
+  @media screen and (max-width: 1549.98px) {
+    display: none;
+  }
+}
+
+.menu{
+  display: flex;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.menu__link{
+  color:$black;
+  margin-right: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 120%;
+  transition: color .4s ease;
+  &:hover{
+    color:$yellow;
+  }
+  //&:last-of-type {
+  //  margin-right: 0;
+  //}
+}
+
+

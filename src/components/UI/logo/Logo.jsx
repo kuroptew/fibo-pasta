@@ -3,11 +3,14 @@ import React from 'react';
 import styles from './Logo.module.scss';
 
 import logo from '../../../images/logo.png'
+import {Link} from "react-router-dom";
 
 const Logo = () => {
   return (
-    <img src={logo} className={styles.logo}>
-    </img>
+    <Link to='/'>
+      <img src={logo} className={styles.logo}>
+      </img>
+    </Link>
   );
 };
 
