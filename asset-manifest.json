@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fibo/static/css/main.29d638d0.css",
+    "main.js": "/fibo/static/js/main.d747eb57.js",
+    "index.html": "/fibo/index.html",
+    "main.29d638d0.css.map": "/fibo/static/css/main.29d638d0.css.map",
+    "main.d747eb57.js.map": "/fibo/static/js/main.d747eb57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29d638d0.css",
+    "static/js/main.d747eb57.js"
+  ]
+}
