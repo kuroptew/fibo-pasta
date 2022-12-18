@@ -1,8 +1,11 @@
 @import 'normalize';
 @import 'reset';
 @import 'variables';
+@import 'swiper/swiper.min.css';
+@import 'swiper/swiper-bundle.min.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+
 
 html {
   font-size: 10px;
@@ -20,34 +23,38 @@ body{
 
 .swiper {
   height: 312px;
-  padding: 0 220px !important;
+  padding: 0 220px ;
 }
 
 .swiper-slide {
-  opacity: 0.5 !important;
+  opacity: 0.5 ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  transform: scale(0.85);
+  transform: scale(0.85) translateX(-70px);
   transition: all .4s ease;
 }
 
-.swiper-slide-visible {
-  opacity: 1 !important;
-  transform: scale(1);
+.swiper-slide-visible,
+.swiper-slide-next {
+  opacity: 1 ;
+  transform: scale(1) translateX(0px);
+}
+
+.swiper-slide-prev {
+  transform: scale(0.85) translateX(80px)
 }
 
 .swiper-button-prev,
 .swiper-button-next {
-  width: 31px !important;
-  height: 31px !important;
+  width: 31px;
+  height: 31px;
   border-radius: 50%;
   background-color: $orange;
-  position: relative;
 
   &::after{
-    content: '' !important;
-    position: absolute !important;
+    content: '';
+    position: absolute ;
     width: 10px;
     height: 10px;
     border-top:2px solid #231F20;
@@ -63,15 +70,14 @@ body{
 }
 
 .swiper-button-prev {
-  left: 130px !important;
+  left: 130px;
   &::after {
     left: 12px;
   }
 }
 
-
 .swiper-button-next {
-  right: 130px !important;
+  right: 130px;
   &::after {
     right: 12px;
     transform: rotate(135deg);

@@ -1,9 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from "swiper";
 
-import 'swiper/css';
-import "swiper/css/navigation";
-
 import styles from './Home.module.scss'
 
 
