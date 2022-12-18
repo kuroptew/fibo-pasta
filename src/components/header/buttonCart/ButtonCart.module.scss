@@ -9,7 +9,7 @@
 
   span {
     position: relative;
-    margin-right: 30px;
+    margin-right: 29px;
     font-size: 1.6rem;
     font-weight: 700;
     line-height: 1.75;
@@ -43,4 +43,12 @@
     margin-right: 21px;
   }
 
+
+  @media screen and (max-width: 767.98px){
+    margin-right: 0;
+    background-color: #FFF;
+    color: #231F20;
+    max-width: 50%;
+    align-self: center;
+  }
 }

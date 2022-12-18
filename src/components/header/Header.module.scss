@@ -2,6 +2,7 @@
 
 .header {
   padding: 13px 220px;
+  margin-bottom: 17px;
 
   @media screen and (max-width: 1549.98px) {
     padding: 20px;
@@ -23,13 +24,14 @@
   }
 
   @media screen and (max-width: 1549.98px) {
+    margin-bottom: 0;
     button:not(:first-of-type){
       display: block;
     }
   }
 
   @media screen and (max-width: 767.98px) {
-    button:not(:last-child){
+    button:nth-of-type(2){
       display: none;
     }
   }
@@ -55,7 +57,7 @@
   }
 }
 
-.btn__call {
+.button__call {
   margin-right: 28px;
   padding: 7px 28px;
   font-size: 1.4rem;
@@ -121,7 +123,7 @@
 
     span:first-of-type::after{
       content:'';
-      background-color: red;
+      background-color: #FF2E65;
       position: absolute;
       height: 4px;
       width: 4px;

@@ -36,7 +36,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <button className={styles['btn__call']}>Заказать звонок</button>
+        <button className={styles['button__call']}>Заказать звонок</button>
         <a href={'tel:+74993918449'} className={styles.tel}>8 499 391-84-49</a>
         <ButtonCart amount={1}/>
         <Hamburger menu={Navbar}/>

@@ -1,7 +1,12 @@
+a {
+  z-index:9999;
+}
+
 .logo{
   width: 80px;
   height: 59px;
   margin-right: 52px;
+  z-index: 9999;
 
   @media screen and (max-width: 1549.98px) {
     margin-right: 185px;

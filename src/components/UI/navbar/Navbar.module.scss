@@ -1,21 +1,29 @@
 @import '../../../style/variables';
 
 .navbar{
-  @media screen and (max-width: 1549.98px) {
-    display: none;
+  @media screen and (max-width: 767.98px){
+    margin-bottom: 55px;
   }
 }
 
 .menu{
   display: flex;
-  @media (max-width: 768px) {
-    display: none;
+  li:not(:last-of-type){
+    margin-right: 20px;
+  }
+
+  @media screen and (max-width: 1549.98px){
+    flex-direction: column;
+
+    li:not(:last-of-type){
+      margin-right: 0;
+      margin-bottom: 16px;
+    }
   }
 }
 
 .menu__link{
   color:$black;
-  margin-right: 20px;
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 120%;
@@ -23,9 +31,7 @@
   &:hover{
     color:$yellow;
   }
-  //&:last-of-type {
-  //  margin-right: 0;
-  //}
 }
+
 
 

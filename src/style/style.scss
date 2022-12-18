@@ -18,3 +18,62 @@ body{
   margin: 0 auto;
 }
 
+.swiper {
+  height: 312px;
+  padding: 0 220px !important;
+}
+
+.swiper-slide {
+  opacity: 0.5 !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transform: scale(0.85);
+  transition: all .4s ease;
+}
+
+.swiper-slide-visible {
+  opacity: 1 !important;
+  transform: scale(1);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 31px !important;
+  height: 31px !important;
+  border-radius: 50%;
+  background-color: $orange;
+  position: relative;
+
+  &::after{
+    content: '' !important;
+    position: absolute !important;
+    width: 10px;
+    height: 10px;
+    border-top:2px solid #231F20;
+    border-left: 2px solid #231F20;
+    transition: border .4s ease;
+    transform: rotate(-45deg);
+  }
+
+  &:hover::after{
+    border-top:2px solid $white;
+    border-left: 2px solid $white;
+  }
+}
+
+.swiper-button-prev {
+  left: 130px !important;
+  &::after {
+    left: 12px;
+  }
+}
+
+
+.swiper-button-next {
+  right: 130px !important;
+  &::after {
+    right: 12px;
+    transform: rotate(135deg);
+  }
+}
