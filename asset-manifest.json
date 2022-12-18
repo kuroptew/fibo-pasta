@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fibo-pasta/static/css/main.5dbd8699.css",
-    "main.js": "/fibo-pasta/static/js/main.36b33c83.js",
+    "main.css": "/fibo-pasta/static/css/main.d06d9557.css",
+    "main.js": "/fibo-pasta/static/js/main.0caa435f.js",
     "static/media/slide-even-bg.png": "/fibo-pasta/static/media/slide-even-bg.87a31f6308bc9925dc55.png",
     "static/media/slide-odd-bg.png": "/fibo-pasta/static/media/slide-odd-bg.0aa7a2e9c85e4763dc87.png",
     "index.html": "/fibo-pasta/index.html",
-    "main.5dbd8699.css.map": "/fibo-pasta/static/css/main.5dbd8699.css.map",
-    "main.36b33c83.js.map": "/fibo-pasta/static/js/main.36b33c83.js.map"
+    "main.d06d9557.css.map": "/fibo-pasta/static/css/main.d06d9557.css.map",
+    "main.0caa435f.js.map": "/fibo-pasta/static/js/main.0caa435f.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dbd8699.css",
-    "static/js/main.36b33c83.js"
+    "static/css/main.d06d9557.css",
+    "static/js/main.0caa435f.js"
   ]
 }
