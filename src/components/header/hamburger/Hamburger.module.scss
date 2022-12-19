@@ -1,8 +1,18 @@
 @import '../../../../src/style/variables';
 
+.hamburger{
+  display: none;
+  position: relative;
+  text-align: center;
+
+  @media screen and (max-width:1549.99px)  {
+    display: block;
+  }
+}
+
 .icon__menu{
   display: block;
-  flex:0 0 39px;
+  width: 39px;
   height: 27px;
   position: relative;
   background-color: #FFF;
@@ -56,6 +66,7 @@
   padding: 19px 25px;
   border-radius: 5px;
   box-shadow: 0px 4px 38px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
   z-index:100;
 
   > button {

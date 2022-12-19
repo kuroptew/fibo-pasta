@@ -1,27 +1,30 @@
 import {useState} from "react";
 import cn from 'classnames';
 
+import ButtonCart from "../buttonCart/ButtonCart";
 import Navbar from "../../UI/navbar/Navbar";
-import buttonCart from "../buttonCart/ButtonCart";
 
 import styles from './Hamburger.module.scss';
-import ButtonCart from "../buttonCart/ButtonCart";
+
 
 const Hamburger = () => {
   const [showMenu, setShowMenu] = useState(false)
 
   return (
-    <button
-      className={cn(styles['icon__menu'], {
-        [styles['icon__menu_close']]: showMenu,
-      })
+    <div className={styles.hamburger}>
+      <button
+        className={cn(styles['icon__menu'], {
+          [styles['icon__menu_close']]: showMenu,
+        })
 
-    }
-      onClick={() => {
-        setShowMenu(!showMenu)
-      }}
-    >
-      <span></span>
+        }
+        onClick={() => {
+          setShowMenu(!showMenu)
+        }}
+      >
+        <span></span>
+
+      </button>
       {showMenu ?
         <div className={styles['hamburger__menu']}>
           <Navbar/>
@@ -30,15 +33,7 @@ const Hamburger = () => {
         </div>
         : null
       }
-
-    </button>
-
-
-    // <button className={styles['icon__menu']}>
-    //   <span></span>
-    // </button>
-
-
+    </div>
   );
 };
 

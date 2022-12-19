@@ -31,9 +31,12 @@
   }
 
   @media screen and (max-width: 767.98px) {
-    button:nth-of-type(2){
+    button:not(:first-of-type){
       display: none;
     }
+    //button:nth-of-type(2){
+    //  display: none;
+    //}
   }
 }
 

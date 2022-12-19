@@ -6,7 +6,6 @@ import Navbar from "../UI/navbar/Navbar";
 import styles from './Header.module.scss';
 
 import yandexLogo from '../../images/yandex-icon.png'
-import Button from "../UI/button/Button";
 import ButtonCart from "./buttonCart/ButtonCart";
 import Hamburger from "./hamburger/Hamburger";
 

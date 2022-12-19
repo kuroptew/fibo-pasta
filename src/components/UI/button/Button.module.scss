@@ -9,4 +9,8 @@
   line-height: 200%;
   border-radius: 8px;
   text-align: center;
+  transition: color .4s ease;
+  &:hover {
+    color: #473E43;
+  }
 }
