@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/fibo-pasta/static/css/main.d06d9557.css",
-    "main.js": "/fibo-pasta/static/js/main.0caa435f.js",
+    "main.css": "/fibo-pasta/static/css/main.ddeaa0eb.css",
+    "main.js": "/fibo-pasta/static/js/main.c1849adb.js",
     "static/media/slide-even-bg.png": "/fibo-pasta/static/media/slide-even-bg.87a31f6308bc9925dc55.png",
     "static/media/slide-odd-bg.png": "/fibo-pasta/static/media/slide-odd-bg.0aa7a2e9c85e4763dc87.png",
+    "static/media/pizza-four-cheese.png": "/fibo-pasta/static/media/pizza-four-cheese.686023d69335f0211160.png",
     "index.html": "/fibo-pasta/index.html",
-    "main.d06d9557.css.map": "/fibo-pasta/static/css/main.d06d9557.css.map",
-    "main.0caa435f.js.map": "/fibo-pasta/static/js/main.0caa435f.js.map"
+    "main.ddeaa0eb.css.map": "/fibo-pasta/static/css/main.ddeaa0eb.css.map",
+    "main.c1849adb.js.map": "/fibo-pasta/static/js/main.c1849adb.js.map"
   },
   "entrypoints": [
-    "static/css/main.d06d9557.css",
-    "static/js/main.0caa435f.js"
+    "static/css/main.ddeaa0eb.css",
+    "static/js/main.c1849adb.js"
   ]
 }
