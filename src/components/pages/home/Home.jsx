@@ -1,14 +1,18 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from "swiper";
 
-import Card from "../../card/Card";
+import SectionCategory from "../../sectionCategory/SectionCategory";
 import styles from './Home.module.scss'
 
-import imgCard from '../../../images/pizza-four-cheese.png'
+import {arrDishesPizza, arrDishesPasta, arrDishesSalads ,arrNewProducts } from "./data";
+
+import SectionNewProducts from "../../sectionNewProducts/SectionNewProducts";
+import Stocks from "../../stocks/Stocks";
 
 const Home = () => {
+
   return (
-    <>
+    <main className={styles.main}>
       <Swiper
         modules={[Navigation]}
         navigation={true}
@@ -16,75 +20,18 @@ const Home = () => {
         slidesPerView={2}
         initialSlide={1}
         watchSlidesProgress={true}
-        // onSlideChange={() => console.log('slide change')}
-        // onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide className={styles['first__slider']}/>
         <SwiperSlide className={styles['second__slider']}/>
         <SwiperSlide className={styles['third__slider']}/>
         <SwiperSlide className={styles['fourth__slider']}/>
       </Swiper>
-      <ul style={{display:'flex', flexWrap:"wrap", padding: '0 220px'}}>
-        <Card
-          name={'С креветками и трюфелями'}
-          img={imgCard}
-          descr={'Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г\n'}
-          mass = {'350г'}
-          price={600}
-        />
-        <Card
-          name={'С креветками и трюфелями'}
-          img={imgCard}
-          descr={'Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.'}
-          mass = {'350г'}
-          price={600}
-        />
-        <Card
-          name={'С креветками и трюфелями'}
-          img={imgCard}
-          descr={'Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г\n'}
-          mass = {'350г'}
-          price={600}
-        />
-        <Card
-          name={'С креветками и трюфелями'}
-          img={imgCard}
-          descr={'Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.'}
-          mass = {'350г'}
-          price={600}
-        />
-        <Card
-          name={'С креветками и трюфелями'}
-          img={imgCard}
-          descr={'Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г\n'}
-          mass = {'350г'}
-          price={600}
-        />
-        <Card
-          name={'С креветками и трюфелями'}
-          img={imgCard}
-          descr={'Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.'}
-          mass = {'350г'}
-          price={600}
-        />
-        <Card
-          name={'С креветками и трюфелями'}
-          img={imgCard}
-          descr={'Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г\n'}
-          mass = {'350г'}
-          price={600}
-        />
-        <Card
-          name={'С креветками и трюфелями'}
-          img={imgCard}
-          descr={'Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.'}
-          mass = {'350г'}
-          price={600}
-        />
-
-      </ul>
-
-    </>
+      {/*<SectionNewProducts arrNewProducts={arrNewProducts}/>*/}
+      {/*<SectionCategory categoryName={'Паста'} arrDishes={arrDishesPasta} />*/}
+      {/*<SectionCategory categoryName={'Пицца'} arrDishes={arrDishesPizza} />*/}
+      {/*<SectionCategory categoryName={'Салаты'} arrDishes={arrDishesSalads} />*/}
+      <Stocks/>
+    </main>
 
 
   );

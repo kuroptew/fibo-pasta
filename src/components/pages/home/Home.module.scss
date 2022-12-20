@@ -1,5 +1,33 @@
 @import '../../../style/variables';
 
+.main {
+  position: relative;
+  &::before{
+    content: '';
+    position: absolute;
+    top: 410px;
+    left: 0;
+    width: 238px;
+    height: 364px;
+    background-image: url("../../../images/boy-bg.svg");
+    background-repeat: no-repeat;
+  }
+
+  &::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 220px;
+    height: 335px;
+    background-image: url("../../../images/girl-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+}
+
 
 .first__slider {
   background-image: url("../../../images/slide-odd-bg.png");

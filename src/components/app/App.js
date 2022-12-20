@@ -9,12 +9,10 @@ function App() {
   return (
     <div className='container'>
       <Header/>
-      <main>
         <Routes>
           <Route path='/' element={<Home/>}></Route>
           <Route path='/contacts' element={<Contacts/>}></Route>
         </Routes>
-      </main>
     </div>
   );
 }
