@@ -26,10 +26,10 @@ const Home = () => {
         <SwiperSlide className={styles['third__slider']}/>
         <SwiperSlide className={styles['fourth__slider']}/>
       </Swiper>
-      {/*<SectionNewProducts arrNewProducts={arrNewProducts}/>*/}
-      {/*<SectionCategory categoryName={'Паста'} arrDishes={arrDishesPasta} />*/}
-      {/*<SectionCategory categoryName={'Пицца'} arrDishes={arrDishesPizza} />*/}
-      {/*<SectionCategory categoryName={'Салаты'} arrDishes={arrDishesSalads} />*/}
+      <SectionNewProducts arrNewProducts={arrNewProducts}/>
+      <SectionCategory categoryName={'Паста'} arrDishes={arrDishesPasta} />
+      <SectionCategory categoryName={'Пицца'} arrDishes={arrDishesPizza} />
+      <SectionCategory categoryName={'Салаты'} arrDishes={arrDishesSalads} />
       <Stocks/>
     </main>
 

@@ -22,9 +22,9 @@ body{
 }
 
 .swiper {
-  height: 312px;
-  margin-bottom: 70px;
-  padding: 0 220px ;
+  height: 31.2rem;
+  margin-bottom: 7rem;
+  padding: 0 22rem;
 }
 
 .swiper-slide {
@@ -32,9 +32,10 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  transform: scale(0.9) translateX(-55px);
+  transform: scale(0.9) translateX(-5.5rem);
   transition: all .4s ease;
 }
+
 
 .swiper-slide-active,
 .swiper-slide-next {
@@ -44,44 +45,44 @@ body{
 }
 
 .swiper-slide-prev {
-  transform: scale(0.9) translateX(58px);
+  transform: scale(0.9) translateX(5.8rem);
 }
 
 .swiper-button-prev,
 .swiper-button-next {
-  width: 31px;
-  height: 31px;
+  width: 3.1rem;
+  height: 3.1rem;
   border-radius: 50%;
   background-color: $orange;
 
   &::after{
     content: '';
     position: absolute ;
-    width: 10px;
-    height: 10px;
-    border-top:2px solid #231F20;
-    border-left: 2px solid #231F20;
+    width: 1rem;
+    height:1rem;
+    border-top:0.2rem solid #231F20;
+    border-left: 0.2rem solid #231F20;
     transition: border .4s ease;
     transform: rotate(-45deg);
   }
 
   &:hover::after{
-    border-top:2px solid $white;
-    border-left: 2px solid $white;
+    border-top:0.2rem  solid $white;
+    border-left: 0.2rem  solid $white;
   }
 }
 
 .swiper-button-prev {
   left: 8%;
   &::after {
-    left: 12px;
+    left: 1.2rem;
   }
 }
 
 .swiper-button-next {
   right: 8%;
   &::after {
-    right: 12px;
+    right: 1.2rem;
     transform: rotate(135deg);
   }
 }

@@ -1,15 +1,15 @@
 @import '../../style/variables';
 
 .header {
-  padding: 13px 220px;
-  margin-bottom: 17px;
+  padding: 1.3rem 22rem;
+  margin-bottom: 1.7rem;
 
   @media screen and (max-width: 1549.98px) {
-    padding: 20px;
+    padding: 2rem;
   }
 
   @media screen and (max-width: 767.98px) {
-    padding: 10px;
+    padding: 1rem;
   }
 }
 
@@ -17,7 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom:14px;
+  margin-bottom:1.4rem;
 
   button:not(:first-of-type){
     display: none;
@@ -44,7 +44,7 @@
   color: $yellow;
   font-size: 2.6rem;
   font-weight: 700;
-  line-height: 120%;
+  line-height: 3.2rem;
   transition: color .4s ease;
 
   &:hover{
@@ -52,7 +52,7 @@
   }
 
   @media screen and (max-width: 1549.98px) {
-    margin-right: 22px;
+    margin-right: 2.2rem;
   }
 
   @media screen and (max-width: 767.98px) {
@@ -61,12 +61,12 @@
 }
 
 .button__call {
-  margin-right: 28px;
-  padding: 7px 28px;
+  margin-right: 2.8rem;
+  padding: .7rem 2.8rem;
   font-size: 1.4rem;
   font-weight: 700;
-  line-height: 200%;
-  border-radius: 28px;
+  line-height: 2.8rem;
+  border-radius: 2.8rem;
   background-color: $grey;
   color: $dark-grey;
   transition: all .4s ease;
@@ -84,7 +84,7 @@
 .wrapper__delivery {
   display: flex;
   flex-direction: column;
-  margin-right: 170px;
+  margin-right: 17rem;
 
   @media screen and (max-width: 1549.98px) {
     display: none;
@@ -92,13 +92,13 @@
 }
 
 .delivery__info_top {
-  margin-bottom: 9px;
+  margin-bottom: .9rem;
   & > span {
     color: #231F20;
     font-size: 1.7rem;
     font-weight: 600;
-    line-height: 120%;
-    margin-right: 6px;
+    line-height: 2.1rem;
+    margin-right: .6rem;
     background-color: inherit;
   }
 
@@ -117,8 +117,8 @@
       position: relative;
       font-size: 1.3rem;
       font-weight: 700;
-      line-height: 125%;
-      margin-right: 18px;
+      line-height: 1.6rem;
+      margin-right: 1.8rem;
     }
     span:last-of-type{
       margin-right: 0;
@@ -128,29 +128,28 @@
       content:'';
       background-color: #FF2E65;
       position: absolute;
-      height: 4px;
-      width: 4px;
-      top: 7px;
+      height: .4rem;
+      width: .4rem;
+      top: .7rem;
       border-radius: 50%;
-      right: -11px;
+      right: -1.1rem;
     }
   }
 
   .delivery__company{
-    margin-right: 20px;
+    margin-right: 2rem;
     & img{
-      margin-right: 7px;
+      margin-right: .7rem;
     }
 
     span:last-of-type{
-      margin-right: 4px;
+      margin-right: .4rem;
     }
 
     svg{
-      transform: translateY(1px);
+      transform: translateY(0.1rem);
     }
   }
-
 }
 
 .header__bot{

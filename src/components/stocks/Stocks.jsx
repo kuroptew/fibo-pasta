@@ -1,12 +1,24 @@
 import React from 'react';
-import styles from './Stocks.module.scss'
+import {useNavigate} from "react-router-dom";
+
+import Button from "../UI/button/Button";
+import styles from './Stocks.module.scss';
 
 const Stocks = () => {
+  const navigate = useNavigate()
   return (
-    <section>
+    <section className={styles['stocks__section']}>
       <h3 className={styles['stocks__title']}>
         Наши <span>акции</span>
       </h3>
+      <ul className={styles['stocks__list']}>
+        <li className={styles['stocks__item']}></li>
+        <li className={styles['stocks__item']}></li>
+        <li className={styles['stocks__item']}></li>
+        <li className={styles['stocks__item']}></li>
+        <li className={styles['stocks__item']}></li>
+      </ul>
+      <Button text={'Все акции'} callback={()=>{navigate('/stocks')}}/>
     </section>
   );
 };
