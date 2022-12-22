@@ -2,9 +2,9 @@ import React from 'react';
 import {useNavigate} from "react-router-dom";
 
 import Button from "../UI/button/Button";
-import styles from './Stocks.module.scss';
+import styles from './SectionStocks.module.scss';
 
-const Stocks = () => {
+const SectionStocks = () => {
   const navigate = useNavigate()
   return (
     <section className={styles['stocks__section']}>
@@ -23,4 +23,4 @@ const Stocks = () => {
   );
 };
 
-export default Stocks;
+export default SectionStocks;

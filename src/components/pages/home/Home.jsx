@@ -7,10 +7,10 @@ import styles from './Home.module.scss'
 import {arrDishesPizza, arrDishesPasta, arrDishesSalads ,arrNewProducts } from "./data";
 
 import SectionNewProducts from "../../sectionNewProducts/SectionNewProducts";
-import Stocks from "../../stocks/Stocks";
+import SectionStocks from "../../sectionStocks/SectionStocks";
+import SectionDelivery from "../../sectionDelivery/SectionDelivery";
 
 const Home = () => {
-
   return (
     <main className={styles.main}>
       <Swiper
@@ -26,11 +26,14 @@ const Home = () => {
         <SwiperSlide className={styles['third__slider']}/>
         <SwiperSlide className={styles['fourth__slider']}/>
       </Swiper>
-      <SectionNewProducts arrNewProducts={arrNewProducts}/>
-      <SectionCategory categoryName={'Паста'} arrDishes={arrDishesPasta} />
-      <SectionCategory categoryName={'Пицца'} arrDishes={arrDishesPizza} />
-      <SectionCategory categoryName={'Салаты'} arrDishes={arrDishesSalads} />
-      <Stocks/>
+      <div className={styles['wrapper__offers']}>
+        <SectionNewProducts arrNewProducts={arrNewProducts}/>
+        <SectionCategory categoryName={'Паста'} arrDishes={arrDishesPasta} />
+        <SectionCategory categoryName={'Пицца'} arrDishes={arrDishesPizza} />
+        <SectionCategory categoryName={'Салаты'} arrDishes={arrDishesSalads} />
+        <SectionStocks/>
+      </div>
+      <SectionDelivery/>
     </main>
 
 

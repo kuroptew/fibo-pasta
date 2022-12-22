@@ -1,0 +1,21 @@
+@import '../../../src/style/variables';
+
+.delivery__section {
+  padding: 5.6rem 22rem 7.4rem 22rem;
+  background-color: $blue-grey;
+}
+
+.delivery__title {
+  margin-bottom: 6.3rem;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 3.7rem;
+  color:$yellow;
+  text-align: center;
+}
+
+.delivery__list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+}
