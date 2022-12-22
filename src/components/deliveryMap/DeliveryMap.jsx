@@ -1,7 +1,7 @@
 import React from 'react';
 import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
 
-const center = [47.2258, 39.688];
+const center = [47.2258, 39.6895];
 
 const DeliveryMap = () => {
   return (
