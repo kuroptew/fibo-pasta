@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fibo-pasta/static/css/main.a8de94e4.css",
-    "main.js": "/fibo-pasta/static/js/main.851b8f1f.js",
+    "main.css": "/fibo-pasta/static/css/main.2062934a.css",
+    "main.js": "/fibo-pasta/static/js/main.52b7a9d2.js",
     "static/media/girl-bg.svg": "/fibo-pasta/static/media/girl-bg.141af6e19359ef0a960a.svg",
     "static/media/boy-bg.svg": "/fibo-pasta/static/media/boy-bg.2c811b0dd72b66526b97.svg",
     "static/media/stock-bg.png": "/fibo-pasta/static/media/stock-bg.e2b65e55262acc5eaabd.png",
@@ -9,12 +9,16 @@
     "static/media/slide-odd-bg.png": "/fibo-pasta/static/media/slide-odd-bg.0aa7a2e9c85e4763dc87.png",
     "static/media/img-card.png": "/fibo-pasta/static/media/img-card.686023d69335f0211160.png",
     "static/media/img-card-mini.png": "/fibo-pasta/static/media/img-card-mini.c8bc0a73e758a3d94982.png",
+    "static/media/car-with-time-delivery.svg": "/fibo-pasta/static/media/car-with-time-delivery.8873f63344b28124d0e843cbc86f1385.svg",
+    "static/media/car-delivery.svg": "/fibo-pasta/static/media/car-delivery.5127dd856f764258e58b19a5c72605d0.svg",
+    "static/media/pay-delivery.svg": "/fibo-pasta/static/media/pay-delivery.27cf31e44f74f8d868cf5830215220b2.svg",
+    "static/media/success-delivery.svg": "/fibo-pasta/static/media/success-delivery.a3161216abfb5049ea3d1eac80a2b187.svg",
     "index.html": "/fibo-pasta/index.html",
-    "main.a8de94e4.css.map": "/fibo-pasta/static/css/main.a8de94e4.css.map",
-    "main.851b8f1f.js.map": "/fibo-pasta/static/js/main.851b8f1f.js.map"
+    "main.2062934a.css.map": "/fibo-pasta/static/css/main.2062934a.css.map",
+    "main.52b7a9d2.js.map": "/fibo-pasta/static/js/main.52b7a9d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8de94e4.css",
-    "static/js/main.851b8f1f.js"
+    "static/css/main.2062934a.css",
+    "static/js/main.52b7a9d2.js"
   ]
 }
