@@ -1,0 +1,14 @@
+@import '../../../style/variables';
+
+.phone {
+  display: block;
+  color: $yellow;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  transition: color .4s ease;
+
+  &:hover {
+    color: $dark-grey;
+  }
+}

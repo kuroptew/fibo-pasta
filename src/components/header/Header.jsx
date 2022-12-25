@@ -5,9 +5,11 @@ import Navbar from "../UI/navbar/Navbar";
 
 import styles from './Header.module.scss';
 
-import yandexLogo from '../../images/yandex-icon.png'
+import yandexLogo from '../../images/header/yandex-icon.png'
 import ButtonCart from "./buttonCart/ButtonCart";
 import Hamburger from "./hamburger/Hamburger";
+import ButtonCall from "../buttonCall/ButtonCall";
+import Phone from "../UI/phone/Phone";
 
 
 const Header = () => {
@@ -35,8 +37,8 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <button className={styles['button__call']}>Заказать звонок</button>
-        <a href={'tel:+74993918449'} className={styles.tel}>8 499 391-84-49</a>
+        <ButtonCall/>
+        <Phone/>
         <ButtonCart amount={1}/>
         <Hamburger menu={Navbar}/>
       </div>

@@ -5,7 +5,7 @@
   position: relative;
   text-align: center;
 
-  @media screen and (max-width:1549.99px)  {
+  @media screen and (max-width:1549.98px)  {
     display: block;
   }
 }
@@ -69,14 +69,16 @@
   background-color: #fff;
   z-index:100;
 
-  > button {
-    display: none;
-  }
+  @media screen and (max-width: 1549.98px) {
+    > button,
+    {
+      display: none;
+    }
 
-  > a{
-    display: none;
+    > a{
+      display: none;
+    }
   }
-
 
   @media screen and (max-width: 767.98px) {
     display: flex;
@@ -88,6 +90,14 @@
     left: 0;
     background-color: $yellow;
     padding: 6.5rem 0 3.1rem;
+
+    > button {
+      display: block;
+    }
+
+    > a{
+      display: block;
+    }
   }
 
 

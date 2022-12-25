@@ -7,7 +7,7 @@ const CardDelivery = ({img, text}) => {
   return (
     <li className={styles['delivery__card']}
     >
-      {img}
+      <img src={img} alt="Иконка доставки"/>
       <p className={styles['delivery__descr']}>{text}</p>
     </li>
   );

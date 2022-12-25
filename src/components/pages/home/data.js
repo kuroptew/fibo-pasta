@@ -1,5 +1,5 @@
-import imgCard from '../../../images/img-card.png'
-import imgCardMini from '../../../images/img-card-mini.png'
+import imgCard from '../../../images/homepage/product/img-card.png'
+import imgCardMini from '../../../images/homepage/newProducts/img-card-mini.png'
 
 
 export const arrDishesPasta = [

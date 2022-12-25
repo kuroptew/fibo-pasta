@@ -5,14 +5,14 @@ a {
 .logo{
   width: 8rem;
   height: 5.9rem;
-  margin-right: 5.2rem;
+
   z-index: 9999;
 
   @media screen and (max-width: 1549.98px) {
-    margin-right: 18.5rem;
+    //margin-right: 18.5rem;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767.98px) {
     width: 6rem;
     height: 4.5rem;
   }
