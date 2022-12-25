@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fibo-pasta/static/css/main.62732f2a.css",
-    "main.js": "/fibo-pasta/static/js/main.3781a2bd.js",
+    "main.css": "/fibo-pasta/static/css/main.eabf1862.css",
+    "main.js": "/fibo-pasta/static/js/main.2bcecb17.js",
     "static/media/girl-bg.svg": "/fibo-pasta/static/media/girl-bg.141af6e19359ef0a960a.svg",
     "static/media/boy-bg.svg": "/fibo-pasta/static/media/boy-bg.2c811b0dd72b66526b97.svg",
     "static/media/stock-bg.png": "/fibo-pasta/static/media/stock-bg.e2b65e55262acc5eaabd.png",
@@ -11,11 +11,11 @@
     "static/media/footer-bg.png": "/fibo-pasta/static/media/footer-bg.e528461b1b3cddd776f0.png",
     "static/media/img-card-mini.png": "/fibo-pasta/static/media/img-card-mini.c8bc0a73e758a3d94982.png",
     "index.html": "/fibo-pasta/index.html",
-    "main.62732f2a.css.map": "/fibo-pasta/static/css/main.62732f2a.css.map",
-    "main.3781a2bd.js.map": "/fibo-pasta/static/js/main.3781a2bd.js.map"
+    "main.eabf1862.css.map": "/fibo-pasta/static/css/main.eabf1862.css.map",
+    "main.2bcecb17.js.map": "/fibo-pasta/static/js/main.2bcecb17.js.map"
   },
   "entrypoints": [
-    "static/css/main.62732f2a.css",
-    "static/js/main.3781a2bd.js"
+    "static/css/main.eabf1862.css",
+    "static/js/main.2bcecb17.js"
   ]
 }
