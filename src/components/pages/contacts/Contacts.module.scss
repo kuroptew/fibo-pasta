@@ -1,0 +1,35 @@
+@import '../../../style/variables';
+
+.contacts__wrapper {
+  margin-top: 2.6rem;
+  margin-bottom: 4.3rem;
+  padding: 0 22rem;
+
+  > div {
+    margin-bottom: 4.3rem;
+  }
+
+  ymaps {
+    border-radius: 1.4rem;
+  }
+
+  a {
+    margin-bottom: 1.8rem;
+  }
+}
+
+.contacts__address {
+  margin-bottom: 1rem;
+  color:$black;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  font-style: normal;
+}
+
+.contacts__info {
+  color: $black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+}

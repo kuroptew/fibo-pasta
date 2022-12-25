@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Phone.module.scss'
 
-const Phone = () => {
+const Phone = ({number}) => {
   return (
-    <a href={'tel:+74993918449'} className={styles.phone}>8 499 391-84-49</a>
+    <a href={`tel:${number}`} className={styles.phone}>{number}</a>
   );
 };
 

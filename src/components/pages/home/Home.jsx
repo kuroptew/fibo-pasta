@@ -12,7 +12,7 @@ import SectionDelivery from "../../sectionDelivery/SectionDelivery";
 
 const Home = () => {
   return (
-    <main className={styles.main}>
+    <main className={styles['home__wrapper']}>
       <Swiper
         modules={[Navigation]}
         navigation={true}

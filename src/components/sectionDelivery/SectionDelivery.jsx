@@ -11,8 +11,7 @@ import SuccessDelivery from '../../images/homepage/delivery/success-delivery.png
 import CarWithTimeDelivery  from '../../images/homepage/delivery/time-delivery.png';
 import DeliveryMap from "../deliveryMap/DeliveryMap";
 
-const SectionDelivery = ({}) => {
-
+const SectionDelivery = () => {
   return (
     <div className={styles['delivery__section']}>
       <h2 className={styles['delivery__title']}>Оплата и доставка</h2>

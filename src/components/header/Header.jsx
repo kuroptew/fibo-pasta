@@ -38,7 +38,7 @@ const Header = () => {
           </div>
         </div>
         <ButtonCall/>
-        <Phone/>
+        <Phone number={'8 499 391-84-49'}/>
         <ButtonCart amount={1}/>
         <Hamburger menu={Navbar}/>
       </div>

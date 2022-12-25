@@ -83,7 +83,7 @@ const Footer = () => {
             </button>
           </li>
         </ul>
-        <Phone/>
+        <Phone number={'8 499 391-84-49'}/>
         <ButtonCall/>
       </div>
     </footer>
