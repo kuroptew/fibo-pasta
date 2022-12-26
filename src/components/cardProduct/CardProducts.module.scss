@@ -1,6 +1,6 @@
 @import '../../../src/style/variables';
 
-.wrapper__card {
+.product__card {
   width:calc((100% - 3.2rem * 3)/ 4);
   &:not(:nth-last-of-type(-n+4)) {
     margin-bottom: 4.9rem;
@@ -10,14 +10,14 @@
   }
 }
 
-.card__img {
+.product__img {
   height: 25.3rem;
   margin-bottom: .8rem;
   object-fit: cover;
 }
 
 
-.card__title {
+.product__title {
   margin-bottom: 1.4rem;
   font-size: 2.4rem;
   font-weight: 800;
@@ -25,7 +25,7 @@
   color: $light-grey;
 }
 
-.card__descr {
+.product__descr {
   margin-bottom: 2.5rem ;
   font-size: 1.3rem;
   font-weight: 500;
@@ -33,13 +33,13 @@
   color: $text-dark-grey;
 }
 
-.card__buy{
+.product__buy{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.card__price {
+.product__price {
   font-size: 2.2rem;
   font-weight: 700;
   line-height: 2.2rem;

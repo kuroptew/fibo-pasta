@@ -1,0 +1,52 @@
+@import '../../../style/animations';
+@import '../../../style/variables';
+
+
+.wrapper {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 0 22rem;
+  text-align: center;
+}
+
+.error__code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  height: 32.5rem;
+
+  > span {
+    font-size: 20rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: $yellow;
+  }
+
+  span:first-of-type {
+    margin-right: 3rem;
+  }
+
+  span:last-of-type {
+    margin-left: 3rem;
+  }
+}
+
+.pizza {
+  height: 30rem;
+  object-fit: cover;
+  animation-name: rotation;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.title {
+  color:$black;
+  font-size: 3rem;
+  line-height: 3.5rem;
+
+  span {
+    color: $yellow;
+  }
+}

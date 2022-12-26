@@ -1,9 +1,23 @@
 @import '../../../style/variables';
 
 .contacts__wrapper {
+  position: relative;
   margin-top: 2.6rem;
   margin-bottom: 4.3rem;
   padding: 0 22rem;
+
+  &::after{
+    content: '';
+    position: absolute;
+    top: -10%;
+    right: 0;
+    width: 22rem;
+    height: 100%;
+    transform: scale(0.9);
+    background-image: url("../../../images/contacts/girl-3-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
   > div {
     margin-bottom: 4.3rem;

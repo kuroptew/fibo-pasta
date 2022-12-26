@@ -1,0 +1,45 @@
+@import '../../../style/variables';
+
+.stocks__wrapper {
+  position: relative;
+  margin-top: 1.8rem;
+  margin-bottom: 8rem;
+  padding: 0 22rem;
+
+  &::before{
+    content: '';
+    position: absolute;
+    top: 32.1rem;
+    left: 0;
+    width: 23.8rem;
+    height: 100%;
+    background-image: url("../../../images/stocks/boy-bg.svg");
+    background-repeat: no-repeat;
+  }
+
+  &::after{
+    content: '';
+    position: absolute;
+    bottom: 17.4rem;
+    right: 0;
+    width: 22rem;
+    height: 33.5rem;
+    background-image: url("../../../images/stocks/girl-2-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.stocks__title {
+  margin-bottom: 2.4rem;
+  color:$yellow;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.7rem;
+}
+
+.stocks__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:3rem;
+}
