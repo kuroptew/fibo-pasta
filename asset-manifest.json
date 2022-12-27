@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/fibo-pasta/static/css/main.e77b7664.css",
-    "main.js": "/fibo-pasta/static/js/main.0755d869.js",
+    "main.css": "/fibo-pasta/static/css/main.b636ea88.css",
+    "main.js": "/fibo-pasta/static/js/main.5020921e.js",
     "static/media/pizza.svg": "/fibo-pasta/static/media/pizza.a16efe9f6771182a83ee603804515e08.svg",
     "static/media/girl-2-bg.svg": "/fibo-pasta/static/media/girl-2-bg.f2397b0855af98d50e76.svg",
     "static/media/girl-3-bg.svg": "/fibo-pasta/static/media/girl-3-bg.302739560f37a967652b.svg",
     "static/media/girl-bg.svg": "/fibo-pasta/static/media/girl-bg.141af6e19359ef0a960a.svg",
     "static/media/boy-bg.svg": "/fibo-pasta/static/media/boy-bg.2c811b0dd72b66526b97.svg",
     "static/media/stock-bg.png": "/fibo-pasta/static/media/stock-bg.e2b65e55262acc5eaabd.png",
-    "static/media/slide-even-bg.png": "/fibo-pasta/static/media/slide-even-bg.87a31f6308bc9925dc55.png",
-    "static/media/slide-odd-bg.png": "/fibo-pasta/static/media/slide-odd-bg.0aa7a2e9c85e4763dc87.png",
     "static/media/img-card.png": "/fibo-pasta/static/media/img-card.686023d69335f0211160.png",
+    "static/media/slide-even-bg.png": "/fibo-pasta/static/media/slide-even-bg.339ab0a9af06ec105f9d.png",
+    "static/media/slide-odd-bg.png": "/fibo-pasta/static/media/slide-odd-bg.21c7c319ad140d2e9d3a.png",
     "static/media/stock-img.png": "/fibo-pasta/static/media/stock-img.195232ff087ee8c64881.png",
     "static/media/footer-bg.png": "/fibo-pasta/static/media/footer-bg.e528461b1b3cddd776f0.png",
     "static/media/img-card-mini.png": "/fibo-pasta/static/media/img-card-mini.c8bc0a73e758a3d94982.png",
     "index.html": "/fibo-pasta/index.html",
-    "main.e77b7664.css.map": "/fibo-pasta/static/css/main.e77b7664.css.map",
-    "main.0755d869.js.map": "/fibo-pasta/static/js/main.0755d869.js.map"
+    "main.b636ea88.css.map": "/fibo-pasta/static/css/main.b636ea88.css.map",
+    "main.5020921e.js.map": "/fibo-pasta/static/js/main.5020921e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e77b7664.css",
-    "static/js/main.0755d869.js"
+    "static/css/main.b636ea88.css",
+    "static/js/main.5020921e.js"
   ]
 }
