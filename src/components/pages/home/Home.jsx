@@ -16,27 +16,23 @@ const Home = () => {
       <Swiper
         modules={[Navigation]}
         navigation={true}
-        spaceBetween={30}
-        slidesPerView={2}
         initialSlide={1}
         watchSlidesProgress={true}
-        // breakpoints={{
-        //   // when window width is >= 320px
-        //   320: {
-        //     slidesPerView: 2,
-        //     spaceBetween: 20
-        //   },
-        //   //  when window width is >= 768px
-        //   768: {
-        //     slidesPerView: 2,
-        //     spaceBetween: 20
-        //   },
-        //   // when window width is >= 1550px
-        //   1550: {
-        //     slidesPerView: 2,
-        //     spaceBetween: 30
-        //   }
-        // }}
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 6,
+            width:233
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 20
+          },
+          1550: {
+            slidesPerView: 2,
+            spaceBetween: 30
+          }
+        }}
       >
         <SwiperSlide className={styles['first__slider']}/>
         <SwiperSlide className={styles['second__slider']}/>

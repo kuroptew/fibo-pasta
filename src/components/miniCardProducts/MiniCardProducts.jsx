@@ -4,7 +4,7 @@ import styles from './MiniCard.module.scss'
 
 const MiniCardProducts = ({name, img, price}) => {
   return (
-    <li className={styles['wrapper__card_mini']}>
+    <li className={styles['card_mini']}>
       <img src={img} className={styles['card__img_mini']}/>
       <div>
         <h3 className={styles['card__title_mini']}>{name}</h3>

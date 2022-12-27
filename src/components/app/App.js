@@ -15,10 +15,10 @@ function App() {
     <div className='container'>
       <Header/>
         <Routes>
-          <Route path='/' element={<Home/>}></Route>
-          <Route path='/contacts' element={<Contacts/>}></Route>
-          <Route path='/stocks' element={<Stocks/>}></Route>
-          <Route path='*' element={<Page404/>}></Route>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/contacts' element={<Contacts/>}/>
+          <Route path='/stocks' element={<Stocks/>}/>
+          <Route path='*' element={<Page404/>}/>
         </Routes>
       <Footer/>
     </div>

@@ -8,6 +8,16 @@
 .wrapper__offers {
   position: relative;
   padding: 0 22rem;
+
+  @media screen and (max-width: 1549.98px) {
+    padding: 0 2rem;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    padding: 0 1rem;
+  }
+
+
   &::before{
     content: '';
     position: absolute;
@@ -17,6 +27,11 @@
     height: 100%;
     background-image: url("../../../images/homepage/boy-bg.svg");
     background-repeat: no-repeat;
+
+    @media screen and (max-width: 1549.98px){
+      opacity: 0.5;
+    }
+
   }
 
   &::after{
@@ -29,7 +44,12 @@
     background-image: url("../../../images/homepage/girl-bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: 1549.98px){
+      opacity: 0.5;
+    }
   }
+
 }
 
 .first__slider {
