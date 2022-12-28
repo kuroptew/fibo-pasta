@@ -2,6 +2,14 @@
 
 .category__section {
   margin-top: 4rem;
+
+  @media screen and (max-width: 1549.98px) {
+    margin-top: 2.5rem;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    margin-top: 2rem;
+  }
 }
 
 .category__title {
@@ -10,15 +18,25 @@
   font-size: 3.2rem;
   font-weight: 800;
   line-height: 3.9rem;
-  
+
   @media screen and (max-width: 1549.98px) {
     margin-bottom: 2rem;
     font-size: 2.4rem;
     line-height: 2.9rem;
   }
+
+  @media screen and (max-width: 1549.98px) {
+    margin-bottom: 1.5rem;
+    font-size: 2.1rem;
+    line-height: 2.6rem;
+  }
 }
 
-.category__list{
+.category__list {
   display: flex;
   flex-wrap: wrap;
+
+  @media screen and (max-width: 767.98px) {
+    flex-direction: column;
+  }
 }

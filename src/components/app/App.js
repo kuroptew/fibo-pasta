@@ -20,7 +20,7 @@ function App() {
           <Route path='/stocks' element={<Stocks/>}/>
           <Route path='*' element={<Page404/>}/>
         </Routes>
-      <Footer/>
+      {/*<Footer/>*/}
     </div>
   );
 }

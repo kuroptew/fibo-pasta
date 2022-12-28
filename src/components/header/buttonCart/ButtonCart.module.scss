@@ -18,13 +18,13 @@
     margin-right: 0;
   }
 
-  span:first-of-type::after{
+  span+span::before{
     content: '';
     position: absolute;
     height: 2.3rem;
     width: .2rem;
     top: -0.2rem;
-    right: -1.4rem;
+    left: -1.4rem;
     background-color: #231F20;
     transition: background-color .4s ease;
   }

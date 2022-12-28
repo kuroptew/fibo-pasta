@@ -46,7 +46,7 @@ const Home = () => {
         <SectionCategory categoryName={'Салаты'} arrDishes={arrDishesSalads}/>
         <SectionStocks/>
       </div>
-      <SectionDelivery/>
+      {/*<SectionDelivery/>*/}
     </main>
   );
 };

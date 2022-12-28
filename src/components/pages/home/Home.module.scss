@@ -28,10 +28,6 @@
     background-image: url("../../../images/homepage/boy-bg.svg");
     background-repeat: no-repeat;
 
-    @media screen and (max-width: 1549.98px){
-      opacity: 0.5;
-    }
-
   }
 
   &::after{
@@ -44,10 +40,6 @@
     background-image: url("../../../images/homepage/girl-bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
-
-    @media screen and (max-width: 1549.98px){
-      opacity: 0.5;
-    }
   }
 
 }
