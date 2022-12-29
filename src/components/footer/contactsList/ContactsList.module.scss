@@ -1,0 +1,100 @@
+@import "../../../style/variables";
+
+.contacts__title {
+  margin-bottom: 3.3rem;
+  color: $black;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.7rem;
+  text-transform: uppercase;
+}
+
+.contacts__list {
+  display: grid;
+  grid-template-columns: repeat(4, 104px);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.4rem;
+  margin-bottom: 4.7rem;
+
+  @media screen and (max-width: 1549.98px) {
+    width: 100%;
+    grid-template-columns: repeat(8, 72px);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
+
+.contacts__item {
+  align-self: stretch;
+}
+
+.contacts__item:last-of-type {
+  grid-column: 3/-1;
+  grid-row:2/3;
+
+  @media screen and (max-width: 1549.98px) {
+    grid-column: 7/10;
+    grid-row: 1/1;
+
+  }
+}
+
+.contacts__button {
+  min-width: 100%;
+  min-height: 100%;
+  padding: 1.1rem 3.5rem;
+  border: 2px solid $blue-grey;
+  border-radius: 1.3rem;
+  color: $black;
+  text-align: center;
+  background-color:transparent;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+  transition:background-color .4s ease;
+  background-color: #FFF;
+
+  &:hover {
+    background-color: $blue-grey;
+  }
+
+  @media screen and (max-width: 1549.98px) {
+    padding: 1.1rem 2.1rem;
+      }
+}
+
+.contacts__link {
+  display: block;
+  color: $black;
+  width: 3rem;
+  height: 3rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+
+.contacts__link_viber {
+  background-image: url("../../../../src/images/footer/contacts-icons/viber-icon.png");
+}
+
+.contacts__link_skype {
+  background-image: url("../../../../src/images/footer/contacts-icons/skype-icon.png");
+}
+
+.contacts__link_facebook-messenger {
+  background-image: url("../../../../src/images/footer/contacts-icons/facebook-messenger-icon.png");
+}
+
+.contacts__link_telegram {
+  background-image: url("../../../../src/images/footer/contacts-icons/telegram-icon.png");
+}
+
+.contacts__link_facebook {
+  background-image: url("../../../../src/images/footer/contacts-icons/facebook-icon.png");
+}
+
+.contacts__link_vk {
+  background-image: url("../../../../src/images/footer/contacts-icons/vk-icon.png");
+}

@@ -13,7 +13,7 @@ const DeliveryMap = () => {
           controls: []
         }}
         width='100%'
-        height="32.2rem"
+        height='32.2rem'
       >
       </Map>
     </YMaps>

@@ -10,14 +10,6 @@
   background-color: #FFF;
   z-index: 100;
 
-  &:not(:last-of-type){
-    margin-right: 3rem;
-
-    @media screen and (max-width: 1549.98px){
-      margin-right: 0;
-    }
-  }
-
   @media screen and (max-width: 1549.98px){
     padding: 1rem 1.4rem;
   }
