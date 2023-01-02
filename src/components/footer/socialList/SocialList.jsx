@@ -10,7 +10,7 @@ const SocialList = () => {
         <li className={styles['socials__item']}><a href="https://www.facebook.com/" className={styles['socials__link']} target={'_blank'}>Facebook</a></li>
         <li className={styles['socials__item']}><a href="https://www.instagram.com/" className={styles['socials__link']} target={'_blank'}>Instagram</a></li>
         <li className={styles['socials__item']}><a href="https://www.vk.com/" className={styles['socials__link']} target={'_blank'}>Вконтакте</a></li>
-        <li className={styles['socials__item']}><address className={styles['footer__address']}>Москва ул. Проспект Вернадского 86В</address></li>
+        <li className={styles['socials__item']}><address className={styles['footer__address']}>Москва ул.Проспект Вернадского 86В</address></li>
       </ul>
     </div>
   );

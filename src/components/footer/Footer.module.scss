@@ -9,44 +9,123 @@
   background-repeat: no-repeat;
   background-position: bottom right;
 
+  > .info__bot {
+    display: none;
+  }
+
+
   @media screen and (max-width: 1549.98px) {
     flex-direction: column;
     justify-content: start;
     align-items: start;
     padding: 5.2rem 2rem 2rem 2rem;
+    background-image: url("../../../src/images/footer/footer-small-bg.png");
+    background-position: 80% 100%;
+
+    > .info__bot {
+      display: flex;
+    }
+  }
+
+  @media screen and (max-width: 767.98px){
+    padding: 2.6rem 1rem .8rem 1rem;
+    background-image: none;
+  }
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+
+  > a {
+    margin-bottom: 3.3rem;    
+  }
+  
+  @media screen and (max-width: 1549.98px) {
+    flex-direction: row;
+    margin-bottom: 3.4rem;
+
+    > a {
+      margin-right: 3rem;
+      margin-bottom: 0;
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    flex-direction: column;
+    margin-bottom: 1.8rem;
+  }
+}
+
+.footer__top{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:3.3rem;
+
+  .top__call {
+    display: none;
+  }
+
+  @media screen and (max-width: 1549.98px){
+    margin-right: 3rem;
+  }
+
+  @media screen and (max-width: 767.98px){
+    margin-right: 0;
+    margin-bottom: 1.2rem;
+
+    .top__call {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+
+      > a {
+        margin-bottom: .5rem;
+        font-size: 2.1rem;
+        line-height: 2.6rem;
+      }
+
+      > button {
+        padding: .2rem 2.1rem;
+        font-size: 1rem;
+        line-height: 2.8rem;
+      }
+    }
+
   }
 }
 
 .footer__info {
   margin-right: 68px;
 
-  > a:first-of-type {
-    display: block;
-    margin-bottom: 3.4rem;
-  }
-
   @media screen and (max-width: 1549.98px){
     width: 100%;
     margin-right: 0;
-    margin-bottom: 3.4rem;
+    padding-top: 3rem;
 
     > a:first-of-type {
       display: inline-block;
       margin-right: 3rem;
     }
 
-
     .info__bot{
       display: none;
     }
   }
+
+  @media screen and (max-width: 767.98px) {
+    padding: 0;
+  }
 }
 
 .footer__documentation {
-  @media screen and (max-width: 1549.98px){
-    display:inline-block;
-    height: 5.9rem;
+  display: flex;
+  margin-bottom: 2.3rem;
 
+
+  @media screen and (max-width: 767.98px){
+    justify-content: space-between;
+    margin-bottom: .8rem;
   }
 }
 
@@ -56,7 +135,6 @@
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 2.8rem;
-  margin-bottom: 2.3rem;
   margin-right: 5.2rem;
   transition: color .4s ease;
 
@@ -68,8 +146,10 @@
     margin-right: 0;
   }
 
-  @media screen and (max-width: 1549.98px){
-    margin-bottom: 0;
+  @media screen and (max-width: 767.98px){
+    margin-right: 0;
+    font-size: 1rem;
+    line-height: 2.8rem;
   }
 }
 
@@ -78,14 +158,37 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-   p {
-     display: inline;
-     margin-right: 13.4rem;
-     color: $black;
-     font-size: 1.4rem;
-     font-weight: 600;
-     line-height: 2.8rem;
-   }
+  width: 100%;
+
+  @media screen and (max-width: 1549.98px){
+    > ul {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 767.98px){
+    > ul {
+      display: flex;
+    }
+  }
+}
+
+.info__copyright {
+  display: inline;
+  margin-right: 13.4rem;
+  color: $black;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.8rem;
+
+  @media screen and (max-width: 1549.98px){
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: 767.98px){
+    font-size: 1rem;
+    line-height: 2.8rem;
+  }
 }
 
 .info__payments {
@@ -97,29 +200,52 @@
   &:last-of-type {
     margin-right: 0;
   }
+
+  @media screen and (max-width: 767.98px){
+    margin-right: .8rem;
+  }
 }
 
 .payment__icon {
   height: 4.6rem;
   object-fit: cover;
+
+  @media screen and (max-width: 767.98px) {
+    height: 2.3rem;
+  }
 }
 
 .footer__contacts {
-
    > a{
     margin-bottom: 2rem;
   }
 
   @media screen and (max-width: 1549.98px) {
     width: 100%;
-    > a
-    {
+    margin-bottom: 3rem;
+
+    > a {
       display: none;
     }
 
     > button {
       display: none;
     }
+  }
+}
+
+.footer__row {
+  display: none;
+
+  @media screen and (max-width: 1549.98px) {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    display: none;
   }
 }
 
