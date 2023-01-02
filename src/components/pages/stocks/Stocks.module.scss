@@ -6,6 +6,16 @@
   margin-bottom: 8rem;
   padding: 0 22rem;
 
+  @media screen and (max-width: 1549.98px){
+    padding: 0 2rem;
+    margin-bottom: 3rem;
+  }
+
+  @media screen and (max-width: 767.98px){
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+  }
+
   &::before{
     content: '';
     position: absolute;
@@ -15,6 +25,7 @@
     height: 100%;
     background-image: url("../../../images/stocks/boy-bg.svg");
     background-repeat: no-repeat;
+    z-index: -1;
   }
 
   &::after{
@@ -27,7 +38,14 @@
     background-image: url("../../../images/stocks/girl-2-bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media screen and (max-width: 1549.98px){
+      background-image: none;
+    }
   }
+
+
+
 }
 
 .stocks__title {
@@ -36,10 +54,25 @@
   font-size: 3rem;
   font-weight: 700;
   line-height: 3.7rem;
+
+  @media screen and (max-width: 767.98px){
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1.2rem;
+  }
 }
 
 .stocks__list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap:3rem;
+
+  @media screen and (max-width: 1549.98px){
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: 767.98px){
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
 }
