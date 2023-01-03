@@ -9,8 +9,8 @@ const SectionNewProducts = ({arrNewProducts}) => {
     <section className={styles['new-products__section']}>
       <h2 className={styles['section__title']}>Новинки</h2>
       <ul className={styles['section__list']}>
-        {arrNewProducts.map(({name, img, price})=>
-          <MiniCardProducts price={price} img={img} name={name}/>
+        {arrNewProducts.map(({id, name, img, price})=>
+          <MiniCardProducts key={id} price={price} img={img} name={name}/>
         )}
       </ul>
     </section>

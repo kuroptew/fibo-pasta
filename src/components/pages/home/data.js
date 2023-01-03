@@ -205,23 +205,27 @@ export const arrDishesSalads = [
 
 export const arrNewProducts = [
   {
+    id:1,
     name:'Карбонара',
     price: 120,
     img:imgCardMini
   },
   {
+    id:2,
     name:'Карбонара',
     price: 120,
     img:imgCardMini
   },
   {
+    id:3,
     name:'Карбонара',
     price: 120,
     img:imgCardMini
   },
   {
+    id:4,
     name:'Карбонара',
     price: 120,
     img:imgCardMini
-  },
+  }
 ]

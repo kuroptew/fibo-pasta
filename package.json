@@ -5,22 +5,26 @@
   "homepage": "https://kuroptew.github.io/fibo-pasta",
   "dependencies": {
     "@pbe/react-yandex-maps": "^1.2.2",
+    "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "classnames": "^2.3.2",
+    "concurrently": "^7.6.0",
     "google-map-react": "^2.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
     "swiper": "^8.4.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "concurrently \"react-scripts start\" \"npx json-server fibo.json --port 3001\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
