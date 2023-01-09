@@ -1,14 +1,10 @@
 import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import {useHttp} from "../../../hooks/http.hook";
 import {selectAll, fetchStocks} from "./stocksSlice";
 import {store} from "../../../store";
 
 import styles from './Stocks.module.scss'
 
-import {
-  arrStocks
-} from "./data";
 
 import CardStock
   from "../../cardStock/CardStock";
@@ -26,7 +22,7 @@ const StocksPage = () => {
   useEffect(() => {
     dispatch(fetchStocks())
   }, [])
-  //
+
   if (stocksLoadingStatus === "loading") {
     return <Spinner/>;
   } else if (stocksLoadingStatus === "error") {

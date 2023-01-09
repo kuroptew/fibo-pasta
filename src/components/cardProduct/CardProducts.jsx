@@ -8,7 +8,7 @@ const CardProducts = ({name, img, descr, mass, price}) => {
         <img src={img} className={styles['product__img']} alt={name}/>
         <div className={styles['product__text']}>
           <h3 className={styles['product__title']}>{name}</h3>
-          <p className={styles['product__descr']}>{descr}{mass}</p>
+          <p className={styles['product__descr']}>{descr} {mass}</p>
         </div>
       </div>
       <div className={styles['product__buy']}>
