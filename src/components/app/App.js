@@ -8,18 +8,18 @@ import Contacts from "../pages/contacts/Contacts";
 import Footer from "../footer/Footer";
 import Page404 from "../pages/404/Page404";
 import StocksPage from "../pages/stocks/StocksPage";
+import CartPage from "../pages/cart/CartPage";
 
 function App() {
   return (
       <div className='container'>
-        <Header/>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/contacts' element={<Contacts/>}/>
           <Route path='/stocks' element={<StocksPage/>}/>
+          <Route path='/cart' element={<CartPage/>}/>
           <Route path='*' element={<Page404/>}/>
         </Routes>
-        <Footer/>
       </div>
   );
 }

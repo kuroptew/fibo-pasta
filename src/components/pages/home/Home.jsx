@@ -12,6 +12,8 @@ import {store} from "../../../store";
 import {useDispatch, useSelector} from "react-redux";
 import {useEffect} from "react";
 import Spinner from "../../spinner/Spinner";
+import Header from "../../header/Header";
+import Footer from "../../footer/Footer";
 
 
 const Home = () => {
@@ -25,25 +27,29 @@ const Home = () => {
 
 
   return (
-    <main className={styles['home__wrapper']}>
-      <SliderHome/>
-      <div className={styles['wrapper__offers']}>
-        <SectionNewProducts arrNewProducts={arrNewProducts}/>
-        {
-          pizzasLoadingStatus === "loading" ?
-            <Spinner/>
-            :
-            pizzasLoadingStatus === "error" ?
-              <h5 className="text-center mt-5">Ошибка загрузки</h5>
+    <>
+      <Header/>
+      <main className={styles['home__wrapper']}>
+        <SliderHome/>
+        <div className={styles['wrapper__offers']}>
+          <SectionNewProducts arrNewProducts={arrNewProducts}/>
+          {
+            pizzasLoadingStatus === "loading" ?
+              <Spinner/>
               :
-              <SectionCategory categoryName={'Пицца'} arrDishes={pizzas}/>
-        }
-        {/*<SectionCategory categoryName={'Пицца'} arrDishes={arrDishesPizza}/>*/}
-        {/*<SectionCategory categoryName={'Салаты'} arrDishes={arrDishesSalads}/>*/}
-        {/*<SectionStocks/>*/}
-      </div>
-      <SectionDelivery/>
-    </main>
+              pizzasLoadingStatus === "error" ?
+                <h5 className="text-center mt-5">Ошибка загрузки</h5>
+                :
+                <SectionCategory categoryName={'Пицца'} arrDishes={pizzas}/>
+          }
+          {/*<SectionCategory categoryName={'Пицца'} arrDishes={arrDishesPizza}/>*/}
+          {/*<SectionCategory categoryName={'Салаты'} arrDishes={arrDishesSalads}/>*/}
+          <SectionStocks/>
+        </div>
+        <SectionDelivery/>
+      </main>
+      <Footer/>
+    </>
   );
 };
 

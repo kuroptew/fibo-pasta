@@ -9,6 +9,8 @@ import styles from './Stocks.module.scss'
 import CardStock
   from "../../cardStock/CardStock";
 import Spinner from "../../spinner/Spinner";
+import Header from "../../header/Header";
+import Footer from "../../footer/Footer";
 
 
 
@@ -30,15 +32,19 @@ const StocksPage = () => {
   }
 
   return (
-    <main className={styles['stocks__wrapper']}>
-      <h1 className={styles['stocks__title']}>Акции</h1>
-      <ul className={styles['stocks__list']}>
-        {
-          stocks.map(({id, img, title, descr}) => <CardStock key={id} img={img} title={title}
-                                                                descr={descr}/>)
-        }
-      </ul>
-    </main>
+    <>
+      <Header/>
+      <main className={styles['stocks__wrapper']}>
+        <h1 className={styles['stocks__title']}>Акции</h1>
+        <ul className={styles['stocks__list']}>
+          {
+            stocks.map(({id, img, title, descr}) =>
+              <CardStock key={id} img={img} title={title} descr={descr}/>)
+          }
+        </ul>
+      </main>
+      <Footer/>
+    </>
   );
 };
 

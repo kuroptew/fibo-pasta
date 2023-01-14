@@ -1,0 +1,64 @@
+@import '../../style/variables';
+
+.cart__steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart__step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &:not(:last-of-type) {
+    > .step__circle {
+      &::after {
+        content: '';
+        top: 50%;
+        left: 100%;
+        position: absolute;
+        width: 10.2rem;
+        border-top: .2rem dashed $dark-grey;
+        transform: translateY(-50%);
+        transform: translateX(1.8rem);
+      }
+    }
+  }
+}
+
+.cart__step_active {
+  .step__circle {
+    background-color: $yellow;
+    color: #231F20;
+  }
+
+  .step__name {
+    color: rgba($black, 0.8);
+  }
+}
+
+
+.step__circle {
+  margin-bottom: .2rem;
+  padding: .4rem;
+  position: relative;
+  width: 3.6rem;
+  height: 3.6rem;
+  border: .2rem solid $yellow;
+  border-radius: 50%;
+  color: $yellow;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  text-align: center;
+
+}
+
+.step__name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.8rem;
+  text-align: center;
+  color: rgba($dark-grey, 0.95);
+}
